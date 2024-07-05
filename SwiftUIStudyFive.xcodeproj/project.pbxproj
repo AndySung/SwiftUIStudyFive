@@ -94,8 +94,8 @@
 		A1511ADB2C37EC530069DF73 /* SwiftUIStudyFive */ = {
 			isa = PBXGroup;
 			children = (
+				A1511B062C37ED4A0069DF73 /* 51UnevenRoundedRect */,
 				A1511ADC2C37EC530069DF73 /* SwiftUIStudyFiveApp.swift */,
-				A1511ADE2C37EC530069DF73 /* ContentView.swift */,
 				A1511AE02C37EC550069DF73 /* Assets.xcassets */,
 				A1511AE22C37EC550069DF73 /* Preview Content */,
 			);
@@ -125,6 +125,14 @@
 				A1511AF92C37EC560069DF73 /* SwiftUIStudyFiveUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIStudyFiveUITests;
+			sourceTree = "<group>";
+		};
+		A1511B062C37ED4A0069DF73 /* 51UnevenRoundedRect */ = {
+			isa = PBXGroup;
+			children = (
+				A1511ADE2C37EC530069DF73 /* ContentView.swift */,
+			);
+			path = 51UnevenRoundedRect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
