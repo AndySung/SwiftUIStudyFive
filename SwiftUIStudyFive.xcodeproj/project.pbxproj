@@ -14,6 +14,7 @@
 		A1511AEE2C37EC560069DF73 /* SwiftUIStudyFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AED2C37EC560069DF73 /* SwiftUIStudyFiveTests.swift */; };
 		A1511AF82C37EC560069DF73 /* SwiftUIStudyFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AF72C37EC560069DF73 /* SwiftUIStudyFiveUITests.swift */; };
 		A1511AFA2C37EC560069DF73 /* SwiftUIStudyFiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AF92C37EC560069DF73 /* SwiftUIStudyFiveUITestsLaunchTests.swift */; };
+		A1D140422C3B932C00A4090F /* photosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D140412C3B932C00A4090F /* photosPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A1511AF32C37EC560069DF73 /* SwiftUIStudyFiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIStudyFiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1511AF72C37EC560069DF73 /* SwiftUIStudyFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyFiveUITests.swift; sourceTree = "<group>"; };
 		A1511AF92C37EC560069DF73 /* SwiftUIStudyFiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyFiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1D140412C3B932C00A4090F /* photosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photosPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		A1511ADB2C37EC530069DF73 /* SwiftUIStudyFive */ = {
 			isa = PBXGroup;
 			children = (
+				A1D140402C3B930200A4090F /* 53PhotosPicker */,
 				A1511B062C37ED4A0069DF73 /* 51UnevenRoundedRect */,
 				A1511ADC2C37EC530069DF73 /* SwiftUIStudyFiveApp.swift */,
 				A1511AE02C37EC550069DF73 /* Assets.xcassets */,
@@ -133,6 +136,14 @@
 				A1511ADE2C37EC530069DF73 /* ContentView.swift */,
 			);
 			path = 51UnevenRoundedRect;
+			sourceTree = "<group>";
+		};
+		A1D140402C3B930200A4090F /* 53PhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A1D140412C3B932C00A4090F /* photosPickerView.swift */,
+			);
+			path = 53PhotosPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1511ADF2C37EC530069DF73 /* ContentView.swift in Sources */,
+				A1D140422C3B932C00A4090F /* photosPickerView.swift in Sources */,
 				A1511ADD2C37EC530069DF73 /* SwiftUIStudyFiveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
